@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://kit.fontawesome.com/80f94435b1.js" crossorigin="anonymous"></script>
+</head>
+
+<style>
+    .carousel {
+        overflow: hidden;
+        width: 1300px;
+        margin: 0 auto;
+    }
+
+    .carousel-track {
+        display: flex;
+        width: 300%;
+        transition: transform 1s;
+
+    }
+
+    .carousel-slide {
+        flex: 0 0 33.33%;
+    }
+
+    .carousel-slide img {
+        max-width: 100%;
+        width: 1300px;
+        height: 600px;
+    }
+</style>
+
+<body>
+    <div class="navbar">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+			<li><a href="products.html">Menu</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="services.html">Services</a></li>
+            
+
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </div>
+
+
+    <div class="product-container">
+        <div class="product-image">
+       <img src="images/curries.jpg" alt="Food">
+        </div>
+        <div class="product-details">
+            <h1 class="product-name">curries</h1>
+            <p class="product-description">Indian flatbread known for its smokey taste and soft, chewy texture is called
+                tabooni roti. This unleavened bread is made by baking dough in a tandoor, a cylindrical clay oven. The
+                high cooking temperature produces an appealingly soft inside and a slightly burnt outside. Its
+                versatility makes it the ideal side dish for a broad range of curries, kebabs, and sauces because of its
+                simplicity. With each delicious mouthful, tandoori roti, with its alluring scent and adaptable texture,
+                continues to be a cherished mainstay of Indian cooking.</p>
+            <div class="product-info">
+                <p><strong>Quantity:</strong> 1</p>
+
+            </div>
+            <div class="action-buttons">
+                <button class="buy-button">Buy Now</button>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-logo">
+                <img src="images/logo.png" alt="Logo">
+            </div>
+            <div class="footer-links">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="products.html">Menu</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-contact">
+                <h3>Contact Us</h3>
+                <p>Email: info@resturant.com</p>
+                <p>Phone: 456-7890</p>
+            </div>
+            <div class="footer-social">
+                <a href="#" target="_blank">Facebook</a>
+                <a href="#" target="_blank">Twitter</a>
+                <a href="#" target="_blank">Instagram</a>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="script.js"></script>
+
+
+</body>
+
+</html>
